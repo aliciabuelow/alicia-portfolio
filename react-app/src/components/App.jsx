@@ -3,19 +3,27 @@ import Hero from './Hero'
 import FeaturedProjects from './FeaturedProjects'
 import MoreProjects from './MoreProjects'
 import About from './About'
+import Skills from './Skills'
 import Contact from './Contact'
 
-import '../styles/App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../styles/global.css'
 
 function App() {
   return (
-   <div className="App">
+   <div className="App container">
     <Navbar />
     <Hero />
     <FeaturedProjects />
     <MoreProjects />
     <About />
+    <Skills />
     <Contact />
+
+<footer>
+  Designed and built by Alicia Buelow. Open-sourced on GitHub.
+</footer>
+
     </div>
   )
 }

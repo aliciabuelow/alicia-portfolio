@@ -1,0 +1,14 @@
+/*Smooth scrolling*/
+html {
+    scroll-behavior: smooth;
+}
+ 
+/* Theme colours */
+:root {
+  --color-lime: #B7CF4F;
+  --color-orange: #FF5E33;
+  --color-blue: #1A0089;
+  --color-bg-light: #EFE7D3;
+  --color-bg-alt: #F5EFE7;
+}
+
