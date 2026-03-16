@@ -11,7 +11,7 @@ import '../styles/global.css'
 
 function App() {
   return (
-   <div className="App container">
+   <div>
     <Navbar />
     <Hero />
     <FeaturedProjects />

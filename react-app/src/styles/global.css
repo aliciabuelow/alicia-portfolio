@@ -5,10 +5,49 @@ html {
  
 /* Theme colours */
 :root {
-  --color-lime: #B7CF4F;
-  --color-orange: #FF5E33;
-  --color-blue: #1A0089;
-  --color-bg-light: #EFE7D3;
+  --accent-color: #B7CF4F;
+  --accent-color-two: #FF5E33;
+  --accent-color-three: #1A0089;
+  --color-bg: #EFE7D3;
   --color-bg-alt: #F5EFE7;
 }
 
+/* Badges */
+.badge-wrapper {
+  display: inline-block;
+}
+
+.badge-content {
+  position: relative;
+  padding: 8px 20px;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1)
+}
+
+/* Buttons */
+.btn-custom {
+  position: relative;
+  display: inline-block;
+  transition: transform 200ms ease;
+}
+
+.btn-custom:hover {
+  transform: scale(1.05);
+}
+
+.btn-custom:active {
+  transform: scale(0.95);
+}
+
+.btn-custom-content {
+  position: relative;
+  padding: 12px 32px;
+  background: #fff;
+  border-radius: 50px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 300ms ease;
+}

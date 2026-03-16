@@ -1,0 +1,24 @@
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-bg);
+    padding: 128px 24px;
+}
+
+.hero-title {
+    font-family: 'Paytone One', sans-serif;
+    font-size: clamp(120px, 12vw, 24px);
+    line-height: 0.8;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+}
+
+.hero-lime-text {
+    color: var(--accent-color);
+}
+
+.hero-orange-text {
+    color: var(--accent-color-two)
+}

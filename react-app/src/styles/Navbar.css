@@ -1,0 +1,121 @@
+.navbar-bg {
+    background-color: var(--accent-color-three);
+}
+
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  padding: 20px 0;
+  animation: slideDownIn 600ms ease-out forwards;
+}
+
+.navbar-inner {
+  border-radius: 60px;
+  padding: 0.875rem 1.75rem;
+  transition: all 300ms ease;
+}
+
+.navbar-logo {
+  background: none;
+  border: none;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 200ms ease;
+}
+
+.navbar-logo:hover {
+    transform: scale(1.1);
+}
+
+.navbar-link {
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 50px;
+  transition: all 200ms ease;
+}
+
+.navbar-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.mobile-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px;
+    transition: transform 200ms ease;
+}
+
+.mobile-menu-btn:hover {
+    transform: scale(1.1);
+}
+
+.mobile-menu {
+    position: fixed;
+    background: #fff;
+    top: 96px;
+    left: 0;
+    right: 0;
+    z-index: 1040;
+    padding: 0 16px;
+}
+
+.mobile-menu-inner {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.mobile-menu-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 32px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.mobile-menu-link {
+    padding: 16px;
+    border-radius: 16px;
+    text-align: left;
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: #000;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.mobile-menu-link:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transform: translateX(5px);
+}
+
+/* Animations */
+@keyframes slideDownIn {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
