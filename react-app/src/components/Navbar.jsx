@@ -60,7 +60,7 @@ export default function Navbar() {
       {menuOpen && (
         <div className="mobile-menu">
           <div className="mobile-menu-inner">
-            <div className="mobile-menu-content">
+            <div className="mobile-menu-content" style={{ backgroundColor: '#fff' }}>
               <button onClick={() => goToSection('featured')} className="mobile-menu-link">
                 Featured Work
               </button>

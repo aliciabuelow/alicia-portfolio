@@ -9,9 +9,9 @@
 
 .hero-title {
     font-family: 'Paytone One', sans-serif;
-    font-size: clamp(120px, 12vw, 24px);
-    line-height: 0.8;
-    letter-spacing: -0.8px;
+    font-size: clamp(110px, 12vw, 24px);
+    line-height: 0.75;
+    letter-spacing: -5px;
     text-transform: uppercase;
 }
 

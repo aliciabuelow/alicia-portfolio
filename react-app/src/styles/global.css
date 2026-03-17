@@ -12,6 +12,27 @@ html {
   --color-bg-alt: #F5EFE7;
 }
 
+/* Drop shadow effect */
+.shadow-wrapper {
+  position: relative;
+}
+
+.shadow-blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--accent-color-three);
+  border-radius: inherit;
+  transform: translate(6px, 6px);
+  transition: transform 0.3s ease;
+}
+
+.shadow-wrapper:hover .shadow-blue {
+  transform: translate(12px, 12px);
+}
+
 /* Badges */
 .badge-wrapper {
   display: inline-block;
@@ -50,4 +71,41 @@ html {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   transition: transform 300ms ease;
+}
+
+/* Sections */
+.section-featured {
+  min-height: 100vh;
+  padding: 128px 24px;
+  background-color: var(--color-bg-alt);
+}
+
+/* Section titles */
+.section-title-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 80px;
+}
+
+.section-title {
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  padding: 8px 24px;
+  border-radius: 32px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: clamp(40px, 5vw, 60px);
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Project cards */
+.project-card {
+  position: relative;
+  padding: 40px;
+  background: #fff;
+  border-radius: 32px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 64px;
 }

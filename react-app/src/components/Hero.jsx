@@ -19,7 +19,7 @@ export default function Hero() {
             >
               {/* Availability badge */}
               <motion.div 
-                className="badge-wrapper mb-3"
+                className="badge-wrapper mb-5"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
@@ -78,7 +78,7 @@ export default function Hero() {
               >
                 <div className="shadow-wrapper btn-custom" style={{ borderRadius: '50px' }}>
                   <div 
-                    className="shadow-red" 
+                    className="shadow-blue" 
                     style={{ 
                       borderRadius: '50px',
                       background: 'linear-gradient(135deg, #1A0089 0%, #4A0DAB 100%)'
