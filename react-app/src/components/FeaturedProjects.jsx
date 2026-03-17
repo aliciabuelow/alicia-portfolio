@@ -4,25 +4,25 @@ import { useInView } from "./hooks/useInView.js";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "React Dictionary App",
     description: "A fully responsive online store built with React and modern CSS. Features include product filtering, cart functionality, and smooth animations.",
-    tags: ["React", "CSS3", "JavaScript"],
+    tags: ["React", "HTML5/CSS3", "REST APIs"],
     color: "#B7CF4F",
     demoUrl: "#",
     githubUrl: "#"
   },
   {
-    title: "Weather Dashboard",
+    title: "React Weather App",
     description: "An interactive weather app that displays real-time weather data with beautiful visualizations and a clean, user-friendly interface.",
-    tags: ["JavaScript", "API", "HTML5"],
+    tags: ["React", "HTML5/CSS3", "REST API"],
     color: "#FF5E33",
     demoUrl: "#",
     githubUrl: "#"
   },
   {
-    title: "Portfolio CMS",
+    title: "Artist Landing Page",
     description: "A content management system for creatives to showcase their work. Built with React and features drag-and-drop functionality.",
-    tags: ["React", "Tailwind", "JavaScript"],
+    tags: ["HTML5/CSS3", "Bootstrap", "Responsive Design"],
     color: "#1A0089",
     demoUrl: "#",
     githubUrl: "#"
