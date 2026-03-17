@@ -30,6 +30,10 @@
   transition: transform 200ms ease;
 }
 
+.navbar-logo-accent {
+  color: var(--accent-color-two)
+}
+
 .navbar-logo:hover {
     transform: scale(1.1);
 }

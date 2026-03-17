@@ -20,7 +20,7 @@ export default function Navbar() {
               
               {/* Logo */}
               <button onClick={() => goToSection('Hero')} className="navbar-logo">
-                AB.
+                AB<span className="navbar-logo-accent">.</span>
               </button>
 
               {/* Desktop nav */}

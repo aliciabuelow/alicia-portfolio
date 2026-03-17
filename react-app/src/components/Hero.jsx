@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, CircleSmall } from "lucide-react";
 import '../styles/Hero.css'
 
 export default function Hero() {
@@ -25,7 +25,10 @@ export default function Hero() {
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 <div className="badge-content">
-                  <p className="mb-0 small fw-medium">Available to work!</p>
+                  <p className="mb-0 small fw-medium">
+                    <CircleSmall className="circle-icon" size={14} strokeWidth={3} style={{ position: 'relative', top: '-1', marginRight: '5px' }}/>
+                    Available to work!
+                    </p>
                 </div>
               </motion.div>
 
@@ -62,7 +65,7 @@ export default function Hero() {
               {/* Welcome */}
               <motion.p 
                 className="lead text-muted mb-4"
-                style={{ maxWidth: '36rem' }}
+                style={{ maxWidth: '576px' }}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.7 }}
