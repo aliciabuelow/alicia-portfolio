@@ -40,7 +40,7 @@ export default function About() {
                 style={{ borderRadius: '1.5rem', display: 'block' }}
               >
                 <div className="drop-shadow" style={{ borderRadius: '24px' }}></div>
-                <div className="about-card mb-3">
+                <div className="about-card">
                   <p className="mb-0 text-muted">
                     Hey! I'm a junior frontend developer who just completed an intensive coding bootcamp. 
                     I'm passionate about creating beautiful, functional websites that make a difference.
@@ -56,7 +56,7 @@ export default function About() {
                 style={{ marginLeft: '3rem', borderRadius: '1.5rem', display: 'block' }}
               >
                 <div className="drop-shadow" style={{ borderRadius: '24px', backgroundColor: '#1A0089' }}></div>
-                <div className="about-card mb-3">
+                <div className="about-card">
                   <p className="mb-0 text-muted">
                     My journey into web development started with curiosity and grew into a genuine love for 
                     problem-solving and bringing creative ideas to life through code.
