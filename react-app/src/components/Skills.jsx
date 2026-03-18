@@ -9,6 +9,7 @@ const skillCategories = [
       { name: "HTML5", color: "#B7CF4F" },
       { name: "CSS3", color: "#B7CF4F" },
       { name: "JavaScript", color: "#B7CF4F" },
+      { name: "Python", color: "#B7CF4F"}
     ]
   },
   {
@@ -23,7 +24,8 @@ const skillCategories = [
     skills: [
       { name: "Git & GitHub", color: "#1A0089" },
       { name: "VS Code", color: "#1A0089" },
-      { name: "npm", color: "#1A0089" },
+      { name: "Shopify", color: "#1A0089"},
+      { name: "Vercel & Netlify", color: "#1A0089"}
     ]
   },
   {
@@ -31,6 +33,8 @@ const skillCategories = [
     skills: [
       { name: "Responsive Design", color: "#B7CF4F" },
       { name: "Figma", color: "#B7CF4F" },
+      { name: "Adobe Photoshop", color: "#B7CF4F" },
+      { name: "Adobe Illustrator", color: "#B7CF4F" },
       { name: "Accessibility", color: "#B7CF4F" },
     ]
   }

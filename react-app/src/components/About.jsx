@@ -39,27 +39,9 @@ export default function About() {
                 className="shadow-wrapper"
                 style={{ borderRadius: '1.5rem', display: 'block' }}
               >
-                <div className="drop-shadow" style={{ borderRadius: '24px' }}></div>
                 <div className="about-card">
-                  <p className="mb-0 text-muted">
-                    Hey! I'm a junior frontend developer who just completed an intensive coding bootcamp. 
-                    I'm passionate about creating beautiful, functional websites that make a difference.
-                  </p>
-                </div>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, x: -30 }}
-                animate={isInView ? { opacity: 1, x: 0 } : {}}
-                transition={{ duration: 0.6, delay: 0.4 }}
-                className="shadow-wrapper"
-                style={{ marginLeft: '3rem', borderRadius: '1.5rem', display: 'block' }}
-              >
-                <div className="drop-shadow" style={{ borderRadius: '24px', backgroundColor: '#1A0089' }}></div>
-                <div className="about-card">
-                  <p className="mb-0 text-muted">
-                    My journey into web development started with curiosity and grew into a genuine love for 
-                    problem-solving and bringing creative ideas to life through code.
+                  <p className="mb-0 text-muted text-center">
+                    I'm a Junior Developer based in Perth, Australia with a background in art, design, and e-commerce. I bring a practical understanding of user experience, visual design, and real-world problem solving into my development work. I build responsive web applications using React and JavaScript, with a focus on clean, striking design and usability. I'm highly detail-oriented, proactive in my learning, and seeking collaborative environments where I can continue to grow!
                   </p>
                 </div>
               </motion.div>
@@ -71,10 +53,9 @@ export default function About() {
                 className="shadow-wrapper"
                 style={{ marginLeft: '24px', borderRadius: '24px', display: 'block' }}
               >
-                <div className="drop-shadow" style={{ borderRadius: '24px', backgroundColor: '#FF5E33' }}></div>
                 <div className="about-card">
-                  <p className="mb-0 text-muted">
-                    When I'm not coding, you can find me exploring design trends or enjoying a good cup of coffee ☕
+                  <p className="mb-0 text-muted text-center">
+                    When I'm not staring at screens, I love to adventure! I enjoy skiing, scuba diving, camping, and seeing new places around the world. I also host a weekly quiz show at a local bar, so I've got all the fun facts 🙋‍♀️
                   </p>
                 </div>
               </motion.div>

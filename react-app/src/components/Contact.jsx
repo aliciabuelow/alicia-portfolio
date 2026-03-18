@@ -18,10 +18,10 @@ export default function Contact() {
             {/* Section Title */}
             <div className="text-center mb-5">
               <h2 className="display-4 fw-bold mb-3 text-dark">
-                Let's Connect!
+                Let's connect!
               </h2>
               <p className="lead text-muted mx-auto" style={{ maxWidth: '36rem' }}>
-                I'm always open to new opportunities and collaborations.
+                Open to new opportunities and collaborations.
               </p>
             </div>
 
@@ -42,8 +42,8 @@ export default function Contact() {
                       <Send className="contact-icon" size={28} color="white" />
                     </div>
                     <div className="text-center">
-                      <h3 className="h5 fw-bold mb-1 text-dark">Email Me</h3>
-                      <p className="mb-0 text-muted">your.email@example.com</p>
+                      <h3 className="h5 fw-bold mb-1 text-dark">Email me</h3>
+                      <p className="mb-0 text-muted">alicia@buelow.com.au</p>
                     </div>
                   </div>
                 </motion.a>
@@ -52,7 +52,7 @@ export default function Contact() {
               {/* Social links */}
               <div className="d-flex justify-content-center gap-3 flex-wrap mt-5">
                 <motion.a 
-                  href="https://github.com"
+                  href="https://github.com/aliciabuelow"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-link"
@@ -67,7 +67,7 @@ export default function Contact() {
                 </motion.a>
 
                 <motion.a 
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/alicia-buelow/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-link"
@@ -81,20 +81,6 @@ export default function Contact() {
                   </div>
                 </motion.a>
 
-                <motion.a 
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="social-link"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={isInView ? { opacity: 1, y: 0 } : {}}
-                  transition={{ duration: 0.5, delay: 0.5 }}
-                >
-                  <div className="text-center">
-                    <Instagram size={40} className="mb-2 text-dark" />
-                    <h3 className="small fw-medium mb-0 text-muted">Instagram</h3>
-                  </div>
-                </motion.a>
               </div>
             </div>
 
@@ -106,7 +92,7 @@ export default function Contact() {
               className="text-center footer"
             >
               <p className="small text-muted">
-                This webpage was built by Alicia Buelow and is open-sourced on GitHub.
+                Designed & built by myself, open-sourced on Github.
               </p>
               <p className="small text-muted mt-2">
                 © 2026 Alicia Buelow

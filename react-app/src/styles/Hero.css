@@ -20,5 +20,7 @@
 }
 
 .hero-orange-text {
+    position: relative;
+    left: 25px;
     color: var(--accent-color-two);
 }
