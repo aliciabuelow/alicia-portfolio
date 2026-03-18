@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ExternalLink, Binary } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 import { useInView } from "./hooks/useInView.js";
 
 const projects = [
@@ -92,7 +92,7 @@ export default function FeaturedProjects() {
                           href={project.githubUrl}
                           className="project-link-code"
                         >
-                          <Binary size={16} />
+                          <Github size={16} />
                           Code
                         </a>
                       </div>

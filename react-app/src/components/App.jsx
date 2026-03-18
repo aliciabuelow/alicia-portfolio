@@ -19,11 +19,6 @@ function App() {
     <About />
     <Skills />
     <Contact />
-
-<footer>
-  Designed and built by Alicia Buelow. Open-sourced on GitHub.
-</footer>
-
     </div>
   )
 }

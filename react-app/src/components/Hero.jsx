@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
-import { ArrowDown, CircleSmall } from "lucide-react";
+import { ArrowDownRight } from "lucide-react";
+import Typewriter from './Typewriter'
 import '../styles/Hero.css'
 
 export default function Hero() {
@@ -26,9 +27,8 @@ export default function Hero() {
               >
                 <div className="badge-content">
                   <p className="mb-0 small fw-medium">
-                    <CircleSmall className="circle-icon" size={14} strokeWidth={3} style={{ position: 'relative', top: '-1', marginRight: '5px' }}/>
-                    Available to work!
-                    </p>
+                    <Typewriter />
+                  </p>
                 </div>
               </motion.div>
 
@@ -43,7 +43,7 @@ export default function Hero() {
                   Alicia
                 </motion.span>
                 <motion.span 
-                  className="d-block hero-orange-text"
+                  className="d-block hero-orange-text textured-text"
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: 0.5 }}
@@ -89,7 +89,7 @@ export default function Hero() {
                   ></div>
                   <button onClick={scrollToAbout} className="btn-custom-content">
                     View My Work
-                    <ArrowDown className="ms-2" size={16} style={{ display: 'inline-block' }} />
+                    <ArrowDownRight className="ms-2" size={16} style={{ display: 'inline-block' }} />
                   </button>
                 </div>
               </motion.div>

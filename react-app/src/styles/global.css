@@ -115,6 +115,14 @@ html {
   background-color: var(--color-bg);
 }
 
+.section-contact {
+  min-height: 100vh;
+  padding: 128px 24px;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-bg-alt);
+}
+
 /* Section titles */
 .section-title-wrapper {
   position: relative;
