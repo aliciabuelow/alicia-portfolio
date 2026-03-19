@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { useInView } from "./hooks/useInView";
-import { ExternalLink, AppWindow } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 const moreProjects = [
   {
@@ -47,6 +47,7 @@ export default function MoreProjects() {
   return (
     <section id="more-projects" ref={ref} className="section-more-projects">
       <div className="container">
+        
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -80,7 +81,6 @@ export default function MoreProjects() {
                   {/* Project card */}
                   <div className="small-project-card">
                     <div className="d-flex flex-column h-100">
-                      <AppWindow size={24} className="mx-1 mb-3" />
                       
                       <h3 className="h5 fw-bold mb-2 text-dark">{project.title}</h3>
                       <p className="small text-muted mb-3 flex-grow-1">{project.description}</p>

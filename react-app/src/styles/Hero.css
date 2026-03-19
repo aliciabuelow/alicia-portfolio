@@ -9,7 +9,7 @@
 
 .hero-title {
     font-family: 'Paytone One', sans-serif;
-    font-size: clamp(140px, 12vw, 24px);
+    font-size: clamp(5rem, 12vw, 12rem);
     line-height: 0.75;
     letter-spacing: -5px;
     text-transform: uppercase;
@@ -20,7 +20,5 @@
 }
 
 .hero-orange-text {
-    position: relative;
-    left: 25px;
     color: var(--accent-color-two);
 }

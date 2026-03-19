@@ -12,13 +12,13 @@ export default function Hero() {
     <section id="hero" className="hero-section">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-10">
+          <div className="col-lg-10 mt-2">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              {/* Availability badge */}
+              {/* Welcome badge */}
               <motion.div 
                 className="badge-wrapper mb-5"
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -33,7 +33,7 @@ export default function Hero() {
               </motion.div>
 
               {/* Name */}
-              <h1 className="hero-title mb-3">
+              <h1 className="hero-title mb-3 mt-4">
                 <motion.span 
                   className="d-block hero-lime-text"
                   initial={{ opacity: 0, x: -20 }}
@@ -79,7 +79,7 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.8 }}
               >
-                <div className="shadow-wrapper btn-custom" style={{ borderRadius: '50px' }}>
+                <div className="shadow-wrapper btn-custom mt-5" style={{ borderRadius: '50px' }}>
                   <div 
                     className="shadow-blue" 
                     style={{ 

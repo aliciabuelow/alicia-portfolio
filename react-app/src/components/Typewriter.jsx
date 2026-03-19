@@ -6,7 +6,7 @@ export default function Typewriter() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Hey there!', 'Bonjour!', 'Guten Tag!', 'Buongiorno!', 'How ya goin mate?', 'Welcome to my portfolio ^800 ☀️'],
+      strings: ['Hey there!', 'Bonjour!', 'Guten Tag!', 'How ya goin mate?', 'Welcome to my portfolio ^1000 ☀️'],
       typeSpeed: 130,
     });
 
