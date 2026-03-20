@@ -5,9 +5,9 @@ html {
  
 /* Theme colours */
 :root {
-  --accent-color: #B7CF4F;
-  --accent-color-two: #FF5E33;
-  --accent-color-three: #1A0089;
+  --accent-color: #d4ed63;
+  --accent-color-two: #ff6136;
+  --accent-color-three: #170470;
   --color-bg: #EFE7D3;
   --color-bg-alt: #F5EFE7;
 }
@@ -41,6 +41,7 @@ html {
   transition: transform 300ms ease;
 }
 
+
 .shadow-wrapper:hover .shadow-blue,
 .shadow-wrapper:hover .drop-shadow {
   transform: translate(12px, 12px);
@@ -50,6 +51,7 @@ html {
 .badge-wrapper {
   display: inline-block;
 }
+
 
 .badge-content {
   position: relative;

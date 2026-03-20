@@ -9,7 +9,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" className="hero-section">
+    <section id="Hero" className="hero-section">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10 mt-2">
@@ -26,14 +26,14 @@ export default function Hero() {
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 <div className="badge-content">
-                  <p className="mb-0 small fw-medium">
+                  <span className="mb-0 small fw-medium">
                     <Typewriter />
-                  </p>
+                  </span>
                 </div>
               </motion.div>
 
               {/* Name */}
-              <h1 className="hero-title mb-3 mt-4">
+              <h1 className="hero-title mb-4 mt-4">
                 <motion.span 
                   className="d-block hero-lime-text"
                   initial={{ opacity: 0, x: -20 }}
@@ -64,7 +64,7 @@ export default function Hero() {
 
               {/* Welcome */}
               <motion.p 
-                className="lead text-muted mb-4"
+                className="lead mb-4"
                 style={{ maxWidth: '576px' }}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -79,12 +79,12 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.8 }}
               >
-                <div className="shadow-wrapper btn-custom mt-5" style={{ borderRadius: '50px' }}>
+                <div className="shadow-wrapper btn-custom mt-3" style={{ borderRadius: '50px' }}>
                   <div 
                     className="shadow-blue" 
                     style={{ 
                       borderRadius: '50px',
-                      background: 'linear-gradient(135deg, #1A0089 0%, #4A0DAB 100%)'
+                      background: 'var(--accent-color)'
                     }}
                   ></div>
                   <button onClick={scrollToAbout} className="btn-custom-content">
