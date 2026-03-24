@@ -4,8 +4,8 @@ import Typewriter from './Typewriter'
 import '../styles/Hero.css'
 
 export default function Hero() {
-  const scrollToAbout = () => {
-    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToFeatured = () => {
+    document.getElementById('featured')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -87,7 +87,7 @@ export default function Hero() {
                       background: 'var(--accent-color)'
                     }}
                   ></div>
-                  <button onClick={scrollToAbout} className="btn-custom-content">
+                  <button onClick={scrollToFeatured} className="btn-custom-content">
                     View My Work
                     <ArrowDownRight className="ms-2" size={16} style={{ display: 'inline-block' }} />
                   </button>
