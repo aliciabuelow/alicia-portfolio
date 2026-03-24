@@ -1,4 +1,4 @@
-import { motion } from "motion/react";
+import { color, motion } from "motion/react";
 import { useInView } from "./hooks/useInView";
 import '../styles/Skills.css'
 
@@ -6,8 +6,7 @@ const skillCategories = [
   {
     category: "Languages",
     skills: [
-      { name: "HTML5", color: "#B7CF4F" },
-      { name: "CSS3", color: "#B7CF4F" },
+      { name: "HTML5/CSS3", color: "#B7CF4F" },
       { name: "JavaScript", color: "#B7CF4F" },
       { name: "Python", color: "#B7CF4F"}
     ]
@@ -25,7 +24,8 @@ const skillCategories = [
       { name: "Git & GitHub", color: "#1A0089" },
       { name: "VS Code", color: "#1A0089" },
       { name: "Shopify", color: "#1A0089"},
-      { name: "Vercel & Netlify", color: "#1A0089"}
+      { name: "Vercel", color: "#1A0089"},
+      { name: "Render", color: "#1A0089"}
     ]
   },
   {
