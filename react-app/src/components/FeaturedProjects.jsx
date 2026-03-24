@@ -21,11 +21,11 @@ const projects = [
   },
   {
     title: "AI Travel Itinerary Builder",
-    description: "An AI-powered web application, generating detailed and structured travel itineraries based on user input, utilizing an external AI API.",
-    tags: ["HTML5/CSS3", "JavaScript", "AI API"],
+    description: "A full-stack travel planner that uses AI to generate realistic, season-aware itineraries tailored to the user's destination, budget, travel style, and interests.",
+    tags: ["React", "JavaScript", "Express", "Node.js", "OpenAI API", "CSS3", "Vite"],
     color: "#1A0089",
-    demoUrl: "#",
-    githubUrl: "#"
+    demoUrl: "https://ai-travel-app-mauve.vercel.app/",
+    githubUrl: "https://github.com/aliciabuelow/AI-travel-app"
   }
 ];
 
