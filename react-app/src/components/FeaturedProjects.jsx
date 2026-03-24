@@ -12,17 +12,17 @@ const projects = [
     githubUrl: "https://github.com/aliciabuelow/AI-travel-app"
   },
   {
-    title: "React Dictionary App",
-    description: "React-based dictionary app combining multiple APIs to deliver rich, real-time word data and images.",
-    tags: ["React", "HTML5/CSS3", "REST APIs"],
+    title: "Project Tracker",
+    description: "Under construction",
+    tags: ["React"],
     color: "#1A0089",
     demoUrl: "#",
     githubUrl: "#"
   },
   {
-    title: "React Weather App",
-    description: "Interactive React app providing accurate weather data in a clean interface, based on user-searched locations.",
-    tags: ["React", "HTML5/CSS3", "REST API"],
+    title: "Unnamed Project",
+    description: "Under construction",
+    tags: ["React"],
     color: "#1A0089",
     demoUrl: "#",
     githubUrl: "#"

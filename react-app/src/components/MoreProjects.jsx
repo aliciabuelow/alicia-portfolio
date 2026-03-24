@@ -4,39 +4,21 @@ import { ExternalLink } from "lucide-react";
 
 const moreProjects = [
   {
-    title: "Task Manager App",
-    description: "A clean and simple to-do list application with local storage persistence.",
-    tags: ["JavaScript", "CSS"],
+    title: "React Dictionary",
+    description: "Under construction",
+    tags: ["React"],
     color: "#B7CF4F"
   },
   {
-    title: "Restaurant Website",
-    description: "A responsive restaurant landing page with menu showcase and reservation form.",
-    tags: ["HTML", "CSS", "JavaScript"],
+    title: "React Weather",
+    description: "Under construction",
+    tags: ["React"],
     color: "#FF5E33"
   },
   {
-    title: "Blog Template",
-    description: "A modern blog layout with article cards and responsive grid design.",
-    tags: ["React", "Tailwind"],
-    color: "#1A0089"
-  },
-  {
-    title: "Calculator App",
-    description: "A functional calculator with a retro-modern design aesthetic.",
-    tags: ["JavaScript", "CSS"],
-    color: "#B7CF4F"
-  },
-  {
-    title: "Landing Page",
-    description: "A conversion-focused landing page with smooth scroll animations.",
-    tags: ["HTML", "CSS"],
-    color: "#FF5E33"
-  },
-  {
-    title: "Pomodoro Timer",
-    description: "A productivity timer app with customizable work and break intervals.",
-    tags: ["React", "JavaScript"],
+    title: "Unnamed Project",
+    description: "Under construction",
+    tags: ["React"],
     color: "#1A0089"
   }
 ];
