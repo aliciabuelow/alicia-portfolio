@@ -4,6 +4,14 @@ import { useInView } from "./hooks/useInView.js";
 
 const projects = [
   {
+    title: "AI Travel Itinerary Builder",
+    description: "A full-stack travel planner that uses AI to generate realistic, season-aware itineraries tailored to the user's destination, budget, travel style, and interests.",
+    tags: ["React", "JavaScript", "Express", "Node.js", "OpenAI API", "CSS3", "Vite"],
+    color: "#1A0089",
+    demoUrl: "https://ai-travel-app-mauve.vercel.app/",
+    githubUrl: "https://github.com/aliciabuelow/AI-travel-app"
+  },
+  {
     title: "React Dictionary App",
     description: "React-based dictionary app combining multiple APIs to deliver rich, real-time word data and images.",
     tags: ["React", "HTML5/CSS3", "REST APIs"],
@@ -18,14 +26,6 @@ const projects = [
     color: "#1A0089",
     demoUrl: "#",
     githubUrl: "#"
-  },
-  {
-    title: "AI Travel Itinerary Builder",
-    description: "A full-stack travel planner that uses AI to generate realistic, season-aware itineraries tailored to the user's destination, budget, travel style, and interests.",
-    tags: ["React", "JavaScript", "Express", "Node.js", "OpenAI API", "CSS3", "Vite"],
-    color: "#1A0089",
-    demoUrl: "https://ai-travel-app-mauve.vercel.app/",
-    githubUrl: "https://github.com/aliciabuelow/AI-travel-app"
   }
 ];
 
@@ -84,6 +84,7 @@ export default function FeaturedProjects() {
                         <a 
                           href={project.demoUrl}
                           className="project-link-demo"
+                          target="_blank"
                         >
                           <ExternalLink size={16} />
                           Live Demo
@@ -91,6 +92,7 @@ export default function FeaturedProjects() {
                         <a 
                           href={project.githubUrl}
                           className="project-link-code"
+                          target="_blank"
                         >
                           <Github size={16} />
                           Code
