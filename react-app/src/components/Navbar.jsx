@@ -25,19 +25,19 @@ export default function Navbar() {
 
               {/* Desktop nav */}
               <div className="d-none d-md-flex gap-3">
-                <button onClick={() => goToSection('FeaturedProjects')} className="navbar-link">
+                <button onClick={() => goToSection('featured')} className="navbar-link">
                   Featured Work
                 </button>
-                <button onClick={() => goToSection('MoreProjects')} className="navbar-link">
+                <button onClick={() => goToSection('more-projects')} className="navbar-link">
                   More Projects
                 </button>
-                <button onClick={() => goToSection('About')} className="navbar-link">
+                <button onClick={() => goToSection('about')} className="navbar-link">
                   About
                 </button>
-                <button onClick={() => goToSection('Skills')} className="navbar-link">
+                <button onClick={() => goToSection('skills')} className="navbar-link">
                   Skills
                 </button>
-                <button onClick={() => goToSection('Contact')} className="navbar-link">
+                <button onClick={() => goToSection('contact')} className="navbar-link">
                   Contact
                 </button>
               </div>
