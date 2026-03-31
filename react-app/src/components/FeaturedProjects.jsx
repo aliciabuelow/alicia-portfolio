@@ -1,9 +1,11 @@
 import { motion } from "motion/react";
 import { ExternalLink, Github } from "lucide-react";
 import { useInView } from "./hooks/useInView.js";
+import travelPreviewImg from "./images/AI-Travel-Preview.png"
 
 const projects = [
   {
+    preview: travelPreviewImg,
     title: "AI Travel Itinerary Builder",
     description: "A full-stack travel planner that uses AI to generate realistic, season-aware itineraries tailored to the user's destination, budget, travel style, and interests.",
     tags: ["React", "JavaScript", "Express", "Node.js", "OpenAI API", "CSS3", "Vite"],
@@ -12,6 +14,7 @@ const projects = [
     githubUrl: "https://github.com/aliciabuelow/AI-travel-app"
   },
   {
+    preview: "",
     title: "Project Tracker",
     description: "Under construction",
     tags: ["React"],
@@ -20,6 +23,7 @@ const projects = [
     githubUrl: "#"
   },
   {
+    preview: "",
     title: "Unnamed Project",
     description: "Under construction",
     tags: ["React"],
@@ -61,7 +65,7 @@ export default function FeaturedProjects() {
                     {/* Project preview */}
                     <div className="col-md-4">
                       <div className="project-preview">
-                        💻
+                        <img src={project.preview} alt="preview of project webpage" />
                       </div>
                     </div>
 
