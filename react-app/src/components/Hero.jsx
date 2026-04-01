@@ -70,7 +70,7 @@ export default function Hero() {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.7 }}
               >
-              Building clean code, thoughtful design, and continuously learning.
+              Thoughtful interfaces, built with intent.
               </motion.p>
 
               {/* CTA button */}

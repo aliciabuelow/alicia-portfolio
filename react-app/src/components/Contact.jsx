@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { useInView } from "./hooks/useInView";
-import { Send, Github, Linkedin, Instagram } from "lucide-react";
+import { Send, Github, Linkedin, } from "lucide-react";
 import '../styles/Contact.css'
 
 export default function Contact() {

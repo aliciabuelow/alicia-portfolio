@@ -41,7 +41,7 @@ export default function About() {
               >
                 <div className="about-card">
                   <p className="mb-0 text-muted text-center">
-                    I'm a Junior Developer based in Perth, Australia with a background in art, design, and e-commerce. I bring a practical understanding of user experience, visual design, and real-world problem solving into my development work. I build responsive web applications using React and JavaScript, with a focus on clean, striking design and usability. I'm highly detail-oriented, proactive in my learning, and seeking collaborative environments where I can continue to grow.
+                    I'm drawn to the space between design and development - building interfaces that are both visually intentional and functionally clear. With a background in art, customer service, and e-commerce, I like to focus on creating experiences that feel considered, memorable, and grounded in real-world usability. 
                   </p>
                 </div>
               </motion.div>
