@@ -80,9 +80,9 @@ export default function FeaturedProjects() {
                         
                         <div className="mb-3 text-muted">
                           {project.features.map(feature => (
-                            <span key={feature} className="project-feature">
+                            <div key={feature} className="project-feature">
                               • {feature}
-                            </span>
+                            </div>
                           ))}
                         </div>
 
