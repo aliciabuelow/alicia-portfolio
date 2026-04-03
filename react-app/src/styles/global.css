@@ -225,6 +225,16 @@ html {
   color: #fff;
 }
 
+.project-case-study {
+  padding: 20px 10px;
+  font-size: 13px;
+}
+
+.project-case-study strong {
+  display: block;
+  font-size: 14px;
+}
+
 .small-project-card {
   position: relative;
   padding: 24px;

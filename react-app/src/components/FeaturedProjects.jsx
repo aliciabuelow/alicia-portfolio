@@ -102,10 +102,10 @@ export default function FeaturedProjects() {
 
                     {openCaseStudy === project.title && (
                       <div className="project-case-study mt-3">
-                        <p><strong>Overview:</strong> {project.caseStudy.overview}</p>
-                        <p><strong>Role:</strong> {project.caseStudy.role}</p>
-                        <p><strong>Challenges:</strong> {project.caseStudy.challenges}</p>
-                        <p><strong>What I learned:</strong> {project.caseStudy.learning}</p>
+                        <p><strong>Overview</strong> {project.caseStudy.overview}</p>
+                        <p><strong>Role</strong> {project.caseStudy.role}</p>
+                        <p><strong>Challenges</strong> {project.caseStudy.challenges}</p>
+                        <p><strong>What I learned</strong> {project.caseStudy.learning}</p>
                       </div>
                     )}
 
