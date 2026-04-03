@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { ExternalLink, Github } from "lucide-react";
 import { useInView } from "./hooks/useInView.js";
 import travelPreviewImg from "./images/AI-Travel-Preview.png"
+import shopifyPreviewImg from "./images/mollymilly-preview.png"
 
 const projects = [
   {
@@ -15,14 +16,12 @@ const projects = [
     githubUrl: "https://github.com/aliciabuelow/AI-travel-app"
   },
   {
-    preview: "",
+    preview: shopifyPreviewImg,
     title: "E-commerce Art Store",
     description: "Designed and launched a Shopify storefront to sell original artwork and digital designs, focusing on branding, usability, and real customer experience.",
     features: ["Custom storefront and product page design for visual consistency", "Integrated print-on-demand services for automated fulfilment", "SEO optimization with structured product listings and metadata", "Processed 150+ customer orders"],
     tags: ["Shopify", "Adobe Creative Suite", "SEO", "HTML/CSS"],
     color: "#1A0089",
-    demoUrl: "#",
-    githubUrl: "#"
   },
   {
     preview: "",
@@ -95,7 +94,8 @@ export default function FeaturedProjects() {
                         </div>
                       </div>
 
-                      <div className="d-flex gap-2">
+                    <div className="d-flex gap-2">
+                      {project.demoUrl && (
                         <a 
                           href={project.demoUrl}
                           className="project-link-demo"
@@ -104,6 +104,9 @@ export default function FeaturedProjects() {
                           <ExternalLink size={16} />
                           Live Demo
                         </a>
+                      )}
+
+                      {project.githubUrl && (
                         <a 
                           href={project.githubUrl}
                           className="project-link-code"
@@ -112,7 +115,8 @@ export default function FeaturedProjects() {
                           <Github size={16} />
                           Code
                         </a>
-                      </div>
+                      )}
+                    </div>
                     </div>
                   </div>
                 </div>
