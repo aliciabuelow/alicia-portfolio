@@ -4,23 +4,11 @@ import { ExternalLink } from "lucide-react";
 
 const moreProjects = [
   {
-    title: "React Dictionary",
+    title: "Unnamed Project",
     description: "Under construction",
     tags: ["React"],
     color: "#B7CF4F"
   },
-  {
-    title: "React Weather",
-    description: "Under construction",
-    tags: ["React"],
-    color: "#FF5E33"
-  },
-  {
-    title: "Unnamed Project",
-    description: "Under construction",
-    tags: ["React"],
-    color: "#1A0089"
-  }
 ];
 
 export default function MoreProjects() {

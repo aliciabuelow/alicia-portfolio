@@ -32,22 +32,6 @@ const projects = [
         learning: "Gained hands-on experience building and managing a business with active customers and transactions. Developed a strong understanding of user experience, branding, and conversion-focused design. Learned how to balance creative design with practical constraints such as fulfilment systems, customer expectations, and scalability.",
     }
   },
-  {
-    preview: "",
-    title: "Project Tracker",
-    description: "Under construction",
-    features: [""],
-    tags: ["React"],
-    color: "#1A0089",
-    demoUrl: "#",
-    githubUrl: "#",    
-    caseStudy: {
-        overview: "what it is, why you built it.",
-        role: "what you did.",
-        challenges: "challenges faced.",
-        learning: "what learned.",
-    }
-  }
 ];
 
 export default projects;
