@@ -5,8 +5,8 @@ import { ExternalLink } from "lucide-react";
 const moreProjects = [
   {
     title: "Unnamed Project",
-    description: "Under construction",
-    tags: ["React"],
+    description: "Coming soon!",
+    tags: ["TBD"],
     color: "#B7CF4F"
   },
 ];
