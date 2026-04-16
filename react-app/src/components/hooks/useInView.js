@@ -6,10 +6,8 @@ export function useInView(options = {}) {
   const ref = useRef(null);
 
   useEffect(() => {
-    // IntersectionObserver is a browser API that watches when elements enter the viewport
     const observer = new IntersectionObserver(
       ([entry]) => {
-        // When the element comes into view, set isInView to true
         if (entry.isIntersecting) {
           setIsInView(true);
         }
@@ -22,7 +20,6 @@ export function useInView(options = {}) {
       observer.observe(currentRef);
     }
 
-    // Cleanup: stop observing when component unmounts
     return () => {
       if (currentRef) {
         observer.unobserve(currentRef);
