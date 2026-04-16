@@ -51,6 +51,11 @@
     margin-top: 100px;
 }
 
+.footer-link {
+    color: var(--accent-color-two);
+    text-decoration: none;
+}
+
 @media (max-width: 576px) {
     .social-link {
         height: 100px;

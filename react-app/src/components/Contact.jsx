@@ -92,7 +92,7 @@ export default function Contact() {
               className="text-center footer"
             >
               <p className="small text-muted">
-                Designed & built by myself, open-sourced on Github.
+                Designed & built by myself, <a href="https://github.com/aliciabuelow/alicia-portfolio" className="footer-link" target="_blank">open-sourced on Github</a>.
               </p>
               <p className="small text-muted mt-2">
                 © 2026 Alicia Buelow
