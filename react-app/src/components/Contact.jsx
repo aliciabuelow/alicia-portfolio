@@ -1,7 +1,8 @@
 import { motion } from "motion/react";
 import { useInView } from "./hooks/useInView";
 import { Send, Github, Linkedin, } from "lucide-react";
-import '../styles/Contact.css'
+import '../styles/Contact.css';
+import logo from './images/high-resolution-color-logo.png';
 
 export default function Contact() {
   const { ref, isInView } = useInView({ threshold: 0.2 });
@@ -97,6 +98,8 @@ export default function Contact() {
               <p className="small text-muted mt-2">
                 © 2026 Alicia Buelow
               </p>
+              
+              <img src={logo} className="logo mt-4" alt="Alicia Buelow brand logo" />
             </motion.div>
           </motion.div>
         </div>

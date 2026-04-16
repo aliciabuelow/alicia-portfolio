@@ -56,6 +56,10 @@
     text-decoration: none;
 }
 
+.logo {
+    height: 50px;
+}
+
 @media (max-width: 576px) {
     .social-link {
         height: 100px;
