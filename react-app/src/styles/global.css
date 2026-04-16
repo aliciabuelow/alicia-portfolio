@@ -39,6 +39,7 @@ html {
   border-radius: inherit;
   transform: translate(8px, 8px);
   transition: transform 300ms ease;
+  z-index: 0;
 }
 
 
@@ -91,18 +92,21 @@ html {
 
 /* Sections */
 .section-featured {
+  min-width: 100vw;
   min-height: 100vh;
   padding: 128px 24px;
   background-color: var(--color-bg-alt);
 }
 
 .section-more-projects {
+  min-width: 100vw;
   min-height: 100vh;
   padding: 128px 24px;
   background-color: var(--color-bg)
 }
 
 .section-about {
+  min-width: 100vw;
   min-height: 100vh;
   padding: 128px 24px;
   display: flex;
@@ -111,6 +115,7 @@ html {
 }
 
 .section-skills {
+  min-width: 100vw;
   min-height: 100vh;
   padding: 128px 24px;
   display: flex;
@@ -119,6 +124,7 @@ html {
 }
 
 .section-contact {
+  min-width: 100vw;
   min-height: 100vh;
   padding: 128px 24px;
   display: flex;
@@ -222,7 +228,26 @@ html {
 
 .project-link-code:hover {
   background: #343a40;
+}
+
+.project-link-casestudy {
+  width: fit-content;
+  padding: 8px 20px;
+  background: #000;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 50px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
   color: #fff;
+  transition: background 300ms ease;
+}
+
+.project-link-casestudy:hover {
+  background: #343a40;
 }
 
 .project-case-study {
@@ -257,4 +282,15 @@ html {
 .small-project-link:hover {
   text-decoration: underline;
   color: #000;
+}
+
+@media (max-width: 576px) {
+  .project-links {
+    flex-wrap: wrap;
+  }
+
+  .project-tag {
+    font-size: 11px;
+    padding: 5px 14px;
+  }
 }

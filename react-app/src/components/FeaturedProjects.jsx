@@ -64,19 +64,7 @@ export default function FeaturedProjects() {
                         </div>
                       </div>
 
-                    <div className="d-flex gap-2">
-                      <button
-                      type="button"
-                      className="project-link-code"
-                      onClick={() =>
-                        setOpenCaseStudy(
-                          openCaseStudy === project.title ? null : project.title
-                        )
-                      }
-                      >
-                        {openCaseStudy === project.title ? "Hide Case Study" : "Case Study"}
-                      </button>
-
+                    <div className="project-links d-flex gap-2">
                       {project.demoUrl && (
                         <a 
                           href={project.demoUrl}
@@ -99,6 +87,19 @@ export default function FeaturedProjects() {
                         </a>
                       )}
                     </div>
+
+                    <button
+                      type="button"
+                      className="project-link-casestudy mt-2"
+                      onClick={() =>
+                        setOpenCaseStudy(
+                          openCaseStudy === project.title ? null : project.title
+                        )
+                      }
+                      >
+                        {openCaseStudy === project.title ? "Hide Case Study" : "Case Study"}
+                    </button>
+
 
                     {openCaseStudy === project.title && (
                       <div className="project-case-study mt-3">

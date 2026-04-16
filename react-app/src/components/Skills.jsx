@@ -86,7 +86,7 @@ export default function Skills() {
                           }}
                         ></div>
                         {/* White badge */}
-                        <div className="skill-badge">
+                        <div className="skill-badge mb-2">
                           <h4 className="small fw-medium mb-0 text-dark">{skill.name}</h4>
                         </div>
                       </div>
