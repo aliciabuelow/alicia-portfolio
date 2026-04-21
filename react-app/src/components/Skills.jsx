@@ -7,8 +7,7 @@ const skillCategories = [
     category: "Languages",
     skills: [
       { name: "HTML5/CSS3", color: "#B7CF4F" },
-      { name: "JavaScript", color: "#B7CF4F" },
-      { name: "Python", color: "#B7CF4F"}
+      { name: "JavaScript", color: "#B7CF4F" }
     ]
   },
   {
