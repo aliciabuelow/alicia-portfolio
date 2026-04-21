@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, ChevronRight } from "lucide-react";
 import { useInView } from "./hooks/useInView.js";
 import projects from "../data/projects.js";
 import { useState } from 'react';
@@ -98,6 +98,7 @@ export default function FeaturedProjects() {
                       }
                       >
                         {openCaseStudy === project.title ? "Hide Case Study" : "Case Study"}
+                        <ChevronRight size={16} />
                     </button>
 
 
