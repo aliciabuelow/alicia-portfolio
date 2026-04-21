@@ -1,13 +1,14 @@
 import travelPreviewImg from "../components/images/AI-Travel-Preview.png"
 import shopifyPreviewImg from "../components/images/mollymilly-preview.png"
+import trackerPreviewImg from "../components/images/project-tracker-preview.png"
 
 const projects = [
   {
     preview: travelPreviewImg,
-    title: "Travel Itinerary Builder",
+    title: "AI Travel Planner",
     description: "Multi-day, custom travel planner focused on turning unpredictable AI responses into structured, realistic, and readable itineraries.",
     features: ["Formatted AI output & response parsing", "Prompt engineering to control formatting", "Deployed full-stack application"],
-    tags: ["React", "Express", "Node.js", "OpenAI API", "Vite"],
+    tags: ["React (Vite)", "Express", "Node.js", "OpenAI API"],
     color: "#1A0089",
     demoUrl: "https://ai-travel-app-mauve.vercel.app/",
     githubUrl: "https://github.com/aliciabuelow/AI-travel-app",
@@ -20,7 +21,7 @@ const projects = [
   },
   {
     preview: shopifyPreviewImg,
-    title: "E-commerce Art Store",
+    title: "Molly & Milly - E-commerce Store",
     description: "Designed and launched a Shopify storefront to sell original artwork and digital designs, focusing on branding, usability, and real customer experience.",
     features: ["Custom storefront and product page design for visual consistency", "Integrated print-on-demand services for automated fulfilment", "SEO optimization with structured product listings and metadata", "Processed 150+ customer orders"],
     tags: ["Shopify", "Adobe Creative Suite", "SEO", "HTML/CSS"],
@@ -32,6 +33,22 @@ const projects = [
         learning: "Gained hands-on experience building and managing a business with active customers and transactions. Developed a strong understanding of user experience, branding, and conversion-focused design. Learned how to balance creative design with practical constraints such as fulfilment systems, customer expectations, and scalability.",
     }
   },
+  {
+    preview: trackerPreviewImg,
+    title: "Project Tracker (React App)",
+    description: "Lightweight project tracker built to manage projects and tasks while demonstrating structured state management and full CRUD functionality in React.",
+    features: ["Full CRUD functionality for projects and tasks", "Nested state management across projects and task lists", "Component-based architecture with clear data flow", "Persistent data using localStorage"],
+    tags: ["React (Vite)", "JavaScript", "CSS3", "localStorage"],
+    color: "#1A0089",
+    demoUrl: "https://alicia-buelow-project-tracker.vercel.app/",
+    githubUrl: "https://github.com/aliciabuelow/Project-Tracker-App",
+    caseStudy: {
+      overview: "Built a lightweight project tracker to manage projects and tasks, focusing on implementing full CRUD functionality and structured state management in React.",
+      role: "Developed a React application with a component-based architecture to manage projects and nested task data. Centralized state in the top-level component and passed data and update functions through props. Implemented features for creating, editing, deleting, and filtering tasks, along with localStorage integration to persist user data across sessions.",
+      challenges: "The biggest challenge was moving from building the app step-by-step to actually understanding how all the pieces worked together. With nested state (projects containing tasks), it was initially difficult to follow how data was being updated across components, especially when using methods like map and filter. I also found it challenging to trace how functions were passed through props and triggered state changes. Rather than rebuilding the app from scratch, I worked through this by reviewing and interacting with the code in small sections, gradually building a clearer mental model of how state flows through the application. Implementing features like inline editing and task toggling also highlighted the complexity of keeping UI state and application state in sync.",
+      learning: "This project significantly strengthened my understanding of core React concepts, particularly state management, props, and how component structure affects data flow. Working with nested data helped me become more comfortable using array methods like map and filter to update state immutably. I also developed a better understanding of controlled inputs and how user interactions drive UI updates. Beyond the code itself, this project taught me how to approach learning more effectively — breaking down complex functionality into smaller parts and reinforcing concepts through both study and hands-on changes to the code.",
+    }
+  }
 ];
 
 export default projects;
