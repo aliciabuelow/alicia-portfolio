@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { useInView } from "./hooks/useInView";
-import { Send, Github, Linkedin, } from "lucide-react";
+import { Send, Github, Linkedin, Download } from "lucide-react";
 import '../styles/Contact.css';
 import logo from './images/high-resolution-color-logo.png';
 
@@ -28,6 +28,28 @@ export default function Contact() {
 
             {/* Contact content */}
             <div>
+
+              {/* Resume link */}
+              <div className="mb-4 shadow-wrapper" style={{ borderRadius: '2rem', display: 'block' }}>
+                <div className="drop-shadow" style={{ borderRadius: '2rem', backgroundColor: '#1A0089' }}></div>
+                <motion.a 
+                  href="/aliciabuelow-resume.pdf"
+                  className="contact-resume-card"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={isInView ? { opacity: 1, y: 0 } : {}}
+                  transition={{ duration: 0.5, delay: 0.2 }}
+                >
+                  <div className="d-flex align-items-center justify-content-center gap-4">
+                    <div className="contact-resume-wrapper" style={{ backgroundColor: '#1A0089' }}>
+                      <Download className="contact-icon" size={28} color="white" />
+                    </div>
+                    <div className="text-center">
+                      <h3 className="h5 fw-bold mb-0 text-dark">View Resume (PDF)</h3>
+                    </div>
+                  </div>
+                </motion.a>
+              </div>
+
               {/* Email card */}
               <div className="mb-4 shadow-wrapper" style={{ borderRadius: '2rem', display: 'block' }}>
                 <div className="drop-shadow" style={{ borderRadius: '2rem', backgroundColor: '#1A0089' }}></div>
