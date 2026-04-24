@@ -12,9 +12,9 @@ const moreProjects = [
     color: "var(--accent-color)"
   },
   {
-    title: "AI, Made Useful",
+    title: "AI, With Real Utility",
     tags: ["Next Builds"],
-    description: "Exploring AI-powered products that turn complexity into something practical; building tools that help people use AI meaningfully without needing to think like engineers.",
+    description: "Exploring AI-powered tools and products that turn complexity into something practical, helping people to use AI meaningfully without needing to think like engineers.",
     footerTag: "Interested in ",
     footer: "intelligent planning tools • human-centered AI • product ideas with real utility",
     color: "var(--accent-color-two)"
