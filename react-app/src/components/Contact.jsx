@@ -41,7 +41,7 @@ export default function Contact() {
                 >
                   <div className="d-flex align-items-center justify-content-center gap-4">
                     <div className="contact-resume-wrapper" style={{ backgroundColor: '#1A0089' }}>
-                      <Download className="contact-icon" size={28} color="white" />
+                      <Download className="resume-icon" size={24} color="white" />
                     </div>
                     <div className="text-center">
                       <h3 className="h5 fw-bold mb-0 text-dark">View Resume (PDF)</h3>
@@ -62,7 +62,7 @@ export default function Contact() {
                 >
                   <div className="d-flex align-items-center justify-content-center gap-4">
                     <div className="contact-icon-wrapper" style={{ backgroundColor: '#1A0089' }}>
-                      <Send className="contact-icon" size={28} color="white" />
+                      <Send className="contact-icon" size={24} color="white" />
                     </div>
                     <div className="text-center">
                       <h3 className="h5 fw-bold mb-1 text-dark">Email me</h3>

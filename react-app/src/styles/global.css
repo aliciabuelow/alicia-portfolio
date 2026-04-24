@@ -297,4 +297,8 @@ body {
     font-size: 11px;
     padding: 5px 14px;
   }
+
+  #featured .project-card {
+    font-size: 14px;
+  }
 }
