@@ -29,7 +29,7 @@ export default function Navbar() {
                   Featured Work
                 </button>
                 <button onClick={() => goToSection('more-projects')} className="navbar-link">
-                  More Projects
+                  Where I'm Growing
                 </button>
                 <button onClick={() => goToSection('about')} className="navbar-link">
                   About
@@ -65,7 +65,7 @@ export default function Navbar() {
                 Featured Work
               </button>
               <button onClick={() => goToSection('more-projects')} className="mobile-menu-link">
-                More Projects
+                Where I'm Growing
               </button>
               <button onClick={() => goToSection('about')} className="mobile-menu-link">
                 About
