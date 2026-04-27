@@ -13,10 +13,10 @@ const projects = [
     demoUrl: "https://ai-travel-app-mauve.vercel.app/",
     githubUrl: "https://github.com/aliciabuelow/AI-travel-app",
     caseStudy: {
-        overview: "Built an AI-powered travel itinerary generator focused on turning unpredictable AI responses into realistic, easy-to-follow travel plans.",
+        overview: "Built an AI-powered travel itinerary generator focused on turning unpredictable AI responses into realistic, readable travel plans.",
         role: "Developed a React application with a structured, user-friendly interface for capturing key travel inputs. Integrated a backend using Express and the OpenAI API to generate itineraries. Designed and iterated on prompt logic to enforce consistent, structured responses, then parsed and rendered the output into a clear day-by-day format using React state and conditional rendering.",
         challenges: "Ensuring consistent and reliable AI output required multiple iterations of prompt engineering, particularly around enforcing formatting and reducing unpredictability. Attempted to include external links in responses, but removed the feature due to unreliable (hallucinated) results. Also navigated new territory by setting up and deploying a simple, separate backend using Express.",
-        learning: "Gained hands-on experience building and deploying a full-stack application, including working with Express and API integration. Developed a strong understanding of prompt engineering for structured AI output, as well as techniques for parsing and rendering dynamic data in React. Improved handling of loading states and asynchronous data flows.",
+        learning: "Strengthened my understanding of API integration, asynchronous requests, and rendering dynamic data in React. Through building and iterating on the app, I also learned a great deal about prompt design, improving AI output through testing, and balancing technical functionality with user experience. The addition of my a simple backend also advanced my understanding of how frontend and backend communicate.",
     }
   },
   {
