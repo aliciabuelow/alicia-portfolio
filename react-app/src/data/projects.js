@@ -31,10 +31,10 @@ const projects = [
     demoUrl: "https://perth-workfriendly-app.vercel.app/",
     githubUrl: "https://github.com/aliciabuelow/perth-workfriendly-app",
     caseStudy: {
-      overview: "",
-      role: "",
-      challenges: "",
-      learning: ""
+      overview: "Built a curated Perth work-spot finder with a strong visual style, practical local content, and lightweight browsing interactions.",
+      role: "Designed and developed a responsive React app around a manually curated dataset of libraries, public spaces, parks, and community hubs. I focused on turning scattered local information into something easier to browse and compare, using type-based card styling, clickable categories, suburb, type, and tag filtering, practical notes, and small usability details like clear search and return-to-search controls.",
+      challenges: "The biggest challenge was making a relatively simple front-end project feel genuinely useful and intentional without unnecessary features or overcomplication. Since the app doesn’t rely on a backend or external API, the value had to come from the quality of the data, the interaction design, and the visual execution. I spent a lot of time refining the notes, tags, card structure, and colour system to support scanability on the frontend.",
+      learning: "This project helped me think more deeply about UI/UX, visual branding, and the role of content in a front-end build. I practised designing for scanability, creating a cohesive visual system, making interactive elements accessible, and choosing features based on whether they actually improved the user experience. I put a lot of consideration into user pathways through the project, and that moulded the project into something different than I had initially planned, but much more practical and user-focused as a product."
     }
   },
   {
