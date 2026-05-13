@@ -177,7 +177,7 @@ body {
 .project-preview img {
   max-width: 100%;
   border-radius: 24px;
-  filter: saturate(150%);
+  
 }
 
 .project-feature {
