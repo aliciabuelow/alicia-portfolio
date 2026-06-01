@@ -54,7 +54,7 @@ export default function Contact() {
               <div className="mb-4 shadow-wrapper" style={{ borderRadius: '2rem', display: 'block' }}>
                 <div className="drop-shadow" style={{ borderRadius: '2rem', backgroundColor: '#1A0089' }}></div>
                 <motion.a 
-                  href="mailto:your.email@example.com"
+                  href="mailto:aliciabuelow@buelow.com.au"
                   className="contact-email-card"
                   initial={{ opacity: 0, y: 20 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
