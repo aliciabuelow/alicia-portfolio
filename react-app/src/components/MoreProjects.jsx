@@ -33,17 +33,9 @@ export default function MoreProjects() {
                   initial={{ opacity: 0, y: 30 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="shadow-wrapper"
+                  className="shadow-wrapper h-100"
                   style={{ borderRadius: '24px', display: 'block' }}
                 >
-                  {/* Drop shadow effect */}
-                  <div 
-                    className="drop-shadow"
-                    style={{ 
-                      backgroundColor: project.color,
-                      borderRadius: '24px'
-                    }}
-                  ></div>
                   
                   {/* Project card */}
                   <div className="small-project-card">

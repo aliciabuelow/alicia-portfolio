@@ -31,7 +31,8 @@ export default function FeaturedProjects() {
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 style={{ borderRadius: '2rem', display: 'block' }}
               >
-                {/* White content card */}
+
+                {/* Project card */}
                 <div className="project-card">
                   <div className="row g-4">
                     {/* Project preview */}
