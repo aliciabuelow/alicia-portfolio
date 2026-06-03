@@ -37,7 +37,7 @@ export default function FeaturedProjects() {
                     {/* Project preview */}
                     <div className="col-md-4">
                       <div className="project-preview">
-                        <img src={project.preview} alt="preview of project webpage" />
+                        <img src={project.preview} alt={`preview of ${project.title}`} />
                       </div>
                     </div>
 

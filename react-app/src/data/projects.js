@@ -1,5 +1,4 @@
-import travelPreviewImg from "../components/images/AI-Travel-Preview.jpeg"
-import trackerPreviewImg from "../components/images/project-tracker-preview.png"
+import travelPreviewImg from "../components/images/AI-Travel-Preview.jpeg";
 import wfpPreviewImg from "../components/images/WFP-Preview1.jpeg";
 
 
@@ -34,22 +33,6 @@ const projects = [
       role: "Designed and developed a responsive React app around a manually curated dataset of libraries, public spaces, parks, and community hubs. I focused on turning scattered local information into something easier to browse and compare, using type-based card styling, clickable categories, suburb, type, and tag filtering, practical notes, and small usability details like clear search and return-to-search controls.",
       challenges: "The biggest challenge was making a relatively simple front-end project feel genuinely useful and intentional without unnecessary features or overcomplication. Since the app doesn’t rely on a backend or external API, the value had to come from the quality of the data, the interaction design, and the visual execution. I spent a lot of time refining the notes, tags, card structure, and colour system to support scanability on the frontend.",
       learning: "This project helped me think more deeply about UI/UX, visual branding, and the role of content in a front-end build. I practised designing for scanability, creating a cohesive visual system, making interactive elements accessible, and choosing features based on whether they actually improved the user experience. I put a lot of consideration into user pathways through the project, and that moulded the project into something different than I had initially planned, but much more practical and user-focused as a product."
-    }
-  },
-  {
-    preview: trackerPreviewImg,
-    title: "Project Tracker (React App)",
-    description: "Lightweight project tracker built to manage projects and tasks while demonstrating structured state management and full CRUD functionality in React.",
-    features: ["Full CRUD functionality for projects and tasks", "Nested state management across projects and task lists", "Component-based architecture with clear data flow", "Persistent data using localStorage"],
-    tags: ["React (Vite)", "JavaScript", "CSS3", "localStorage"],
-    color: "#1A0089",
-    demoUrl: "https://alicia-buelow-project-tracker.vercel.app/",
-    githubUrl: "https://github.com/aliciabuelow/Project-Tracker-App",
-    caseStudy: {
-      overview: "Built a lightweight project tracker for managing projects and tasks, focused on CRUD functionality and structured state management in React.",
-      role: "Developed a React application with a component-based architecture to manage projects and nested task data. Centralized state in the top-level component and passed data and update functions through props. Implemented features for creating, editing, deleting, and filtering tasks, along with localStorage integration to persist user data across sessions.",
-      challenges: "The biggest challenge was moving from building the app step-by-step to understanding how all the pieces worked together. With nested state, it was initially difficult to follow how data was updated across components, especially when using methods like map and filter. Tracing how functions passed through props triggered state changes was another learning curve. I worked through this by reviewing and interacting with the code in smaller sections, gradually building a clearer idea of how state flows through the application. Features like inline editing and task toggling also highlighted the challenge of keeping UI state and application state in sync.",
-      learning: "Strengthened my understanding of core React concepts, particularly state management, props, and how component structure affects data flow. Working with nested data helped me get more comfortable using methods to update tasks and projects without mutating existing data. I also gained a better understanding of form handling in React, including managing input values through state and updating the UI based on user interactions. Beyond the code itself, the project also taught me how to approach learning more effectively - breaking down complex functionality into smaller parts and reinforcing concepts through both study and hands-on changes to the code."
     }
   }
 ];

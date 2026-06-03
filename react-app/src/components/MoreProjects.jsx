@@ -46,6 +46,17 @@ export default function MoreProjects() {
                   {/* Project card */}
                   <div className="small-project-card">
                     <div className="d-flex flex-column h-100">
+                  
+                  {/* Project preview */}
+                      <div className="more-project-preview">
+                        <img src={project.preview} alt={`preview of ${project.title}`} />
+                      </div>
+
+                  {/* Project info */}
+                      <div className="mt-3">
+                        <h3 className="h5 fw-bold mb-2 text-dark">{project.title}</h3>
+                        <p className="small text-muted mb-3">{project.description}</p>
+                      </div>
 
                     </div>
                   </div>

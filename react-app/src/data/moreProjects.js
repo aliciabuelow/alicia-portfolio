@@ -1,4 +1,5 @@
 import shopifyPreviewImg from "../components/images/mollymilly-preview.png";
+import trackerPreviewImg from "../components/images/project-tracker-preview.png";
 
 const moreProjects = [
      {
@@ -14,7 +15,23 @@ const moreProjects = [
         challenges: "Managing third-party print-on-demand services required ongoing testing and iteration to ensure consistent product quality and reliable fulfilment. Maintaining a cohesive brand across the storefront, product offerings, and marketing channels was also a key challenge. As a solo project, balancing design, operations, and ongoing store maintenance required strong organization and adaptability.",
         learning: "Gained hands-on experience building and managing a business with real customers and transactions. Developed my understanding of user experience, branding, and conversion-focused design. Learned how to balance creative design with practical constraints such as fulfilment systems, customer expectations, and scalability."    
     }
-  }
+    },
+    {
+    preview: trackerPreviewImg,
+    title: "Project Tracker (React App)",
+    description: "Lightweight project tracker built to manage projects and tasks while demonstrating structured state management and full CRUD functionality in React.",
+    features: ["Full CRUD functionality for projects and tasks", "Nested state management across projects and task lists", "Component-based architecture with clear data flow", "Persistent data using localStorage"],
+    tags: ["React (Vite)", "JavaScript", "CSS3", "localStorage"],
+    color: "#1A0089",
+    demoUrl: "https://alicia-buelow-project-tracker.vercel.app/",
+    githubUrl: "https://github.com/aliciabuelow/Project-Tracker-App",
+    caseStudy: {
+      overview: "Built a lightweight project tracker for managing projects and tasks, focused on CRUD functionality and structured state management in React.",
+      role: "Developed a React application with a component-based architecture to manage projects and nested task data. Centralized state in the top-level component and passed data and update functions through props. Implemented features for creating, editing, deleting, and filtering tasks, along with localStorage integration to persist user data across sessions.",
+      challenges: "The biggest challenge was moving from building the app step-by-step to understanding how all the pieces worked together. With nested state, it was initially difficult to follow how data was updated across components, especially when using methods like map and filter. Tracing how functions passed through props triggered state changes was another learning curve. I worked through this by reviewing and interacting with the code in smaller sections, gradually building a clearer idea of how state flows through the application. Features like inline editing and task toggling also highlighted the challenge of keeping UI state and application state in sync.",
+      learning: "Strengthened my understanding of core React concepts, particularly state management, props, and how component structure affects data flow. Working with nested data helped me get more comfortable using methods to update tasks and projects without mutating existing data. I also gained a better understanding of form handling in React, including managing input values through state and updating the UI based on user interactions. Beyond the code itself, the project also taught me how to approach learning more effectively - breaking down complex functionality into smaller parts and reinforcing concepts through both study and hands-on changes to the code."
+    }
+    }
 ];
 
 export default moreProjects;

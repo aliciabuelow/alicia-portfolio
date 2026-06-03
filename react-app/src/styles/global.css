@@ -264,6 +264,8 @@ body {
   font-size: 14px;
 }
 
+/* More projects cards */
+
 .small-project-card {
   position: relative;
   padding: 24px;
@@ -273,19 +275,18 @@ body {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.small-project-link {
-  display: inline-flex;
+.more-project-preview {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 8px;
-  font-size: 14px;
-  font-weight: 500;
-  color: #212529;
-  text-decoration: none;
+  margin: 0 auto;
+  object-fit: cover;
 }
 
-.small-project-link:hover {
-  text-decoration: underline;
-  color: #000;
+.more-project-preview img {
+  max-width: 100%;
+  border-radius: 24px;
+  
 }
 
 @media (max-width: 576px) {
