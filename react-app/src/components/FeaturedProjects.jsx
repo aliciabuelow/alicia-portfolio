@@ -18,7 +18,7 @@ export default function FeaturedProjects() {
         >
           {/* Section Title */}
           <div className="section-title-wrapper">
-            <h2 className="section-title">Featured Projects</h2>
+            <h2 className="section-title">Featured Work</h2>
           </div>
 
           {/* Projects */}
