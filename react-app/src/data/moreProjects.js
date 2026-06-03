@@ -11,12 +11,6 @@ const moreProjects = [
     color: "#1A0089",
     demoUrl: "https://alicia-buelow-project-tracker.vercel.app/",
     githubUrl: "https://github.com/aliciabuelow/Project-Tracker-App",
-    caseStudy: {
-      overview: "Built a lightweight project tracker for managing projects and tasks, focused on CRUD functionality and structured state management in React.",
-      role: "Developed a React application with a component-based architecture to manage projects and nested task data. Centralized state in the top-level component and passed data and update functions through props. Implemented features for creating, editing, deleting, and filtering tasks, along with localStorage integration to persist user data across sessions.",
-      challenges: "The biggest challenge was moving from building the app step-by-step to understanding how all the pieces worked together. With nested state, it was initially difficult to follow how data was updated across components, especially when using methods like map and filter. Tracing how functions passed through props triggered state changes was another learning curve. I worked through this by reviewing and interacting with the code in smaller sections, gradually building a clearer idea of how state flows through the application. Features like inline editing and task toggling also highlighted the challenge of keeping UI state and application state in sync.",
-      learning: "Strengthened my understanding of core React concepts, particularly state management, props, and how component structure affects data flow. Working with nested data helped me get more comfortable using methods to update tasks and projects without mutating existing data. I also gained a better understanding of form handling in React, including managing input values through state and updating the UI based on user interactions. Beyond the code itself, the project also taught me how to approach learning more effectively - breaking down complex functionality into smaller parts and reinforcing concepts through both study and hands-on changes to the code."
-    }
     },
 {
     preview: shopifyPreviewImg,

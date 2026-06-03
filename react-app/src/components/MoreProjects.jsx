@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { motion } from "motion/react";
 import { useInView } from "./hooks/useInView";
 import { ExternalLink, Github, ChevronRight } from "lucide-react";
@@ -6,6 +7,7 @@ import moreProjects from "../data/moreProjects.js";
 
 export default function MoreProjects() {
   const { ref, isInView } = useInView({ threshold: 0.1 });
+  const [openCaseStudy, setOpenCaseStudy] = useState(null);
 
   return (
     <section id="more-projects" ref={ref} className="section-more-projects">
@@ -89,6 +91,30 @@ export default function MoreProjects() {
                         </a>
                       )}
                     </div>
+
+                    {project.caseStudy && (
+                      <button
+                        type="button"
+                        className="project-link-casestudy mt-2"
+                        onClick={() =>
+                          setOpenCaseStudy(
+                            openCaseStudy === project.title ? null : project.title
+                        )
+                      }
+                      >
+                        {openCaseStudy === project.title ? "Hide Case Study" : "Case Study"}
+                        <ChevronRight size={16} />
+                    </button>)}
+
+
+                    {openCaseStudy === project.title && (
+                      <div className="project-case-study mt-3">
+                        <p><strong>Overview</strong> {project.caseStudy.overview}</p>
+                        <p><strong>Role</strong> {project.caseStudy.role}</p>
+                        <p><strong>Challenges</strong> {project.caseStudy.challenges}</p>
+                        <p><strong>What I learned</strong> {project.caseStudy.learning}</p>
+                      </div>
+                    )}
 
                     </div>
                   </div>
