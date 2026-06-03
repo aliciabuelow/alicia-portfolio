@@ -282,7 +282,8 @@ body {
 }
 
 .more-project-preview img {
-  max-width: 100%;
+  max-height: 200px;
+  max-width: 90%;
   border-radius: 24px;
 }
 
