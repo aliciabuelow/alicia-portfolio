@@ -1,33 +1,8 @@
 import { motion } from "motion/react";
 import { useInView } from "./hooks/useInView";
 import { ArrowRight } from "lucide-react";
+import moreProjects from "../data/moreProjects.js";
 
-const moreProjects = [
-  {
-    title: "Understanding What I Build",
-    tags: ["Current Focus"],
-    description: "Moving beyond making things work toward understand why they work - deepening React, JavaScript, application logic, and the systems behind the interfaces I build.",
-    footerTag: "Exploring ",
-    footer: "frontend architecture • practical JavaScript • stronger engineering fundamentals",
-    color: "var(--accent-color)"
-  },
-  {
-    title: "AI, With Real Utility",
-    tags: ["Next Builds"],
-    description: "Exploring AI-powered tools and products that turn complexity into something practical, helping people to use AI meaningfully without needing to think like engineers.",
-    footerTag: "Interested in ",
-    footer: "intelligent planning tools • human-centered AI • product ideas with real utility",
-    color: "var(--accent-color-two)"
-  },
-  {
-    title: "Building With Others",
-    tags: ["Open To"],
-    description: "Looking to grow through collaboration, open source, hackathons, and junior opportunities where I can contribute and keep learning.",
-    footerTag: "Seeking ",
-    footer: "collaboration • open source • real-world product experience",
-    color: "var(--accent-color-three)"
-  }
-];
 
 export default function MoreProjects() {
   const { ref, isInView } = useInView({ threshold: 0.1 });
@@ -43,7 +18,7 @@ export default function MoreProjects() {
         >
           {/* Section title */}
           <div className="section-title-wrapper">
-            <h2 className="section-title">Where I'm Growing</h2>
+            <h2 className="section-title">More Work</h2>
           </div>
 
           
@@ -71,23 +46,6 @@ export default function MoreProjects() {
                   {/* Project card */}
                   <div className="small-project-card">
                     <div className="d-flex flex-column h-100">
-
-                      <div className="mb-3 mt-2">
-                        {project.tags.map(tag => (
-                          <span key={tag} className="project-tag">
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                      
-                      <h3 className="h5 fw-bold mb-4 text-dark">{project.title}</h3>
-
-                      <p className="small text-muted mb-4 flex-grow-1">{project.description}</p>
-                      <span className="small fw-bold">
-                        {project.footerTag}
-                        <ArrowRight size={16} />
-                        </span>
-                      <span className="small text-muted mb-2 flex-grow-1">{project.footer}</span>
 
                     </div>
                   </div>
