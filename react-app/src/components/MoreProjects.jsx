@@ -33,7 +33,7 @@ export default function MoreProjects() {
                   initial={{ opacity: 0, y: 30 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="shadow-wrapper h-100"
+                  className="shadow-wrapper"
                   style={{ borderRadius: '24px', display: 'block' }}
                 >
                   {/* Drop shadow effect */}
