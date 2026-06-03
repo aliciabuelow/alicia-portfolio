@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { useInView } from "./hooks/useInView";
-import { ArrowRight } from "lucide-react";
+import { ExternalLink, Github, ChevronRight } from "lucide-react";
 import moreProjects from "../data/moreProjects.js";
 
 
@@ -57,6 +57,38 @@ export default function MoreProjects() {
                         <h3 className="h5 fw-bold mb-2 text-dark">{project.title}</h3>
                         <p className="small text-muted mb-3">{project.description}</p>
                       </div>
+
+                        <div className="mb-3">
+                          {project.tags.map(tag => (
+                            <span key={tag} className="more-project-tag" style={{ backgroundColor: project.color }}>
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+
+                    <div className="project-links d-flex gap-2">
+                      {project.demoUrl && (
+                        <a 
+                          href={project.demoUrl}
+                          className="project-link-demo"
+                          target="_blank"
+                        >
+                          <ExternalLink size={16} />
+                          Live Demo
+                        </a>
+                      )}
+
+                      {project.githubUrl && (
+                        <a 
+                          href={project.githubUrl}
+                          className="project-link-code"
+                          target="_blank"
+                        >
+                          <Github size={16} />
+                          Code
+                        </a>
+                      )}
+                    </div>
 
                     </div>
                   </div>
