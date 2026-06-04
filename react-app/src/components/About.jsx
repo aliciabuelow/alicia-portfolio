@@ -23,11 +23,16 @@ export default function About() {
           <div className="row g-5">
             {/* Photo */}
             <div className="col-md-6">
+              
+            <div className="mb-4 shadow-wrapper" style={{ borderRadius: '2rem' }}>
+              <div className="drop-shadow" style={{ borderRadius: '2rem', backgroundColor: '#1A0089' }}></div>
+
               <div className="about-photo sticky-md-top-custom" style={{ borderRadius: '40px' }}>
                 <div className="about-photo-content">
                   <img src={aboutPhoto} alt="black & white selfie of woman" />
                 </div>
               </div>
+            </div>
             </div>
 
             {/* About text cards */}

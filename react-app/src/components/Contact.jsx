@@ -51,7 +51,7 @@ export default function Contact() {
               </div>
 
               {/* Email card */}
-              <div className="mb-4 shadow-wrapper" style={{ borderRadius: '2rem', display: 'block' }}>
+              <div className="mb-4 shadow-wrapper" style={{ borderRadius: '2rem' }}>
                 <div className="drop-shadow" style={{ borderRadius: '2rem', backgroundColor: '#1A0089' }}></div>
                 <motion.a 
                   href="mailto:aliciabuelow@buelow.com.au"

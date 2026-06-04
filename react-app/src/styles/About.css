@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.section-about .shadow-wrapper {
+  display: inline-block;
+}
+
 .about-photo-content {
   position: relative;
   aspect-ratio: 1;
