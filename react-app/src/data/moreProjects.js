@@ -14,7 +14,7 @@ const moreProjects = [
     },
 {
     preview: shopifyPreviewImg,
-    title: "Molly & Milly - E-commerce Store",
+    title: "Molly & Milly (E-commerce Store)",
     description: "Designed and launched a Shopify storefront to sell original artwork and digital designs, focusing on branding, usability, and real customer experience.",
     features: ["Custom storefront and product page design for visual consistency", "Integrated print-on-demand services for automated fulfilment", "SEO optimization with structured product listings and metadata", "Processed 150+ customer orders"],
     tags: ["Shopify", "Adobe Creative Suite", "SEO", "HTML/CSS"],
