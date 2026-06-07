@@ -60,7 +60,7 @@ export default function About() {
               >
                 <div className="about-card">
                   <p className="mb-0 text-muted text-center">
-                    When I'm not staring at screens, I love to adventure! I enjoy skiing, scuba diving, camping, and seeing new places around the world with my husband and dog-daughter 🐶
+                    When I'm not staring at screens, I enjoy skiing, scuba diving, camping, and seeing new places around the world with my husband and dog-daughter 🐶
                   </p>
                 </div>
               </motion.div>
