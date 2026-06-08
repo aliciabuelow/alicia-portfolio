@@ -15,6 +15,7 @@ const skillCategories = [
     skills: [
       { name: "React", color: "#FF5E33" },
       { name: "Bootstrap", color: "#FF5E33" },
+      { name: "Express", color: "#FF5E33" },
     ]
   },
   {
@@ -22,9 +23,11 @@ const skillCategories = [
     skills: [
       { name: "Git & GitHub", color: "#1A0089" },
       { name: "VS Code", color: "#1A0089" },
-      { name: "Shopify", color: "#1A0089"},
-      { name: "Vercel", color: "#1A0089"},
-      { name: "Render", color: "#1A0089"}
+      { name: "Shopify", color: "#1A0089" },
+      { name: "Vercel", color: "#1A0089" },
+      { name: "Render", color: "#1A0089" },
+      { name: "Vite", color: "#1A0089" },
+      { name: "Google Analytics", color: "#1A0089" },
     ]
   },
   {
