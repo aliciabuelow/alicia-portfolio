@@ -25,7 +25,7 @@ export default function About() {
             <div className="col-md-6">
               
             <div className="mb-4 shadow-wrapper" style={{ borderRadius: '2rem' }}>
-              <div className="drop-shadow" style={{ borderRadius: '2rem', backgroundColor: '#1A0089' }}></div>
+              <div className="drop-shadow" style={{ borderRadius: '2rem', backgroundColor: 'var(--accent-color)' }}></div>
 
               <div className="about-photo sticky-md-top-custom" style={{ borderRadius: '40px' }}>
                 <div className="about-photo-content">
