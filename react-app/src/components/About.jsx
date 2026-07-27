@@ -46,7 +46,7 @@ export default function About() {
               >
                 <div className="about-card">
                   <p className="mb-0 text-muted text-center">
-                    I'm drawn to the space between design and development - building interfaces that are both visually intentional and functionally clear. With a background in art, customer service, and e-commerce, I like to focus on creating experiences that feel considered, memorable, and grounded in real-world usability. 
+                    I'm drawn to the space between design and development - building interfaces that are both visually intentional and functionally clear. With a background in art, customer service, and e-commerce, I like to focus on creating experiences that feel considered, memorable, and accessible. 
                   </p>
                 </div>
               </motion.div>
@@ -60,7 +60,7 @@ export default function About() {
               >
                 <div className="about-card">
                   <p className="mb-0 text-muted text-center">
-                    When I'm not staring at screens, I enjoy skiing, scuba diving, camping, and seeing new places around the world with my husband and dog-daughter 🐶
+                    When I'm not staring at screens, I enjoy skiing, scuba diving, camping, hiking, and seeing new places around the world with my husband and dog. 🐶
                   </p>
                 </div>
               </motion.div>
